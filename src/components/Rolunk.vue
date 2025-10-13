@@ -103,7 +103,5 @@
     background-image: url(../assets/element3pic.jpg)
 }
 
-#mutass {
-    scroll-margin-top: -240px;
-}
+
 </style>
