@@ -33,7 +33,7 @@ AOS.init();
             <section class="text-center mt-5">
                 <h1 data-aos="fade-up" data-aos-duration="3000">Esőerdők világa</h1>
                 <p data-aos="fade-up" data-aos-duration="3000">Fedezd fel a Föld tüdejét</p>
-                <a href="#mutass" class="btn btn-light mt-5">Mutass többet!</a>
+                <a href="#mutass" class="btn btn-light mt-5 mutass">Mutass többet!</a>
             </section>
         </header>
         <div id="mutass" class="text-center container whatIs" data-aos="fade-up" data-aos-duration="1500">
@@ -106,20 +106,21 @@ section p {
     font-style: italic;
 }
 
-button {
+.mutass {
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
     padding: 7px 15px 7px 15px;
-}
-
-button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-button a {
     text-decoration: none;
     color: black;
     font-size: 17px;
+    box-shadow: 0 4px 15px rgba(0,0,0,1);
+    transition: transform 0.3s ease;
+}
+
+.mutass:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
+
 }
 
 .container {
