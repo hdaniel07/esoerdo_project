@@ -1,9 +1,11 @@
 <script setup>
-  import topSection from "../src/components/topSection.vue"
+  import Hero from "./components/Hero.vue"
+  import Footer from "./components/Footer.vue"
 </script>
 
 <template>
-    <topSection></topSection>
+    <Hero></Hero>
+    <Footer></Footer>
 </template>
 
 <style scoped>
