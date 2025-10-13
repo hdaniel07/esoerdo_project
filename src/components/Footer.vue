@@ -3,9 +3,9 @@
 </script>
 
 <template>
-<footer class="text-center">
-            <p>© Majomparádé Esőerdő Tisztító- és Karbantartó Kft. </p>
-        </footer>
+    <footer class="text-center">
+        <p>© Majomparádé Esőerdő Tisztító- és Karbantartó Kft. </p>
+    </footer>
 </template>
 
 <style scoped>

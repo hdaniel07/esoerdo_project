@@ -45,46 +45,6 @@ AOS.init();
                 segíthetünk megóvni őket.</p>
         </div>
     </main>
-    <div class="container bg-white">
-        <div class="elements">
-            <div class="element1 d-flex">
-                <div class="bg col-lg-6"></div>
-                <div class="szoveg col-lg-6">
-                    <h3>Mi az esőerdő?</h3>
-                    <p>Az esőerdők olyan sűrű, nedves erdők, ahol évente több mint 2000 mm csapadék hullik. Ezek a
-                        területek általában az Egyenlítő mentén helyezkednek el – például az Amazonas-medencében,
-                        Közép-Afrikában vagy Délkelet-Ázsiában.
-
-                        A trópusi esőerdők gazdag biodiverzitásukról ismertek: a világ növény- és állatfajainak több
-                        mint fele itt él, gyakran olyan fajok is, amelyek máshol nem fordulnak elő.</p>
-                </div>
-            </div>
-            <div class="element2 element1 d-flex">
-                <div class="szoveg col-lg-6">
-                    <h3>Mi az esőerdő?</h3>
-                    <p>Az esőerdők olyan sűrű, nedves erdők, ahol évente több mint 2000 mm csapadék hullik. Ezek a
-                        területek általában az Egyenlítő mentén helyezkednek el – például az Amazonas-medencében,
-                        Közép-Afrikában vagy Délkelet-Ázsiában.
-
-                        A trópusi esőerdők gazdag biodiverzitásukról ismertek: a világ növény- és állatfajainak több
-                        mint fele itt él, gyakran olyan fajok is, amelyek máshol nem fordulnak elő.</p>
-                </div>
-                <div class="bg col-lg-6"></div>
-            </div>
-            <div class="element1 d-flex">
-                <div class="bg col-lg-6"></div>
-                <div class="szoveg col-lg-6">
-                    <h3>Mi az esőerdő?</h3>
-                    <p>Az esőerdők olyan sűrű, nedves erdők, ahol évente több mint 2000 mm csapadék hullik. Ezek a
-                        területek általában az Egyenlítő mentén helyezkednek el – például az Amazonas-medencében,
-                        Közép-Afrikában vagy Délkelet-Ázsiában.
-
-                        A trópusi esőerdők gazdag biodiverzitásukról ismertek: a világ növény- és állatfajainak több
-                        mint fele itt él, gyakran olyan fajok is, amelyek máshol nem fordulnak elő.</p>
-                </div>
-            </div>
-        </div>
-    </div>
 </template>
 
 <style scoped>
@@ -134,7 +94,7 @@ section p {
     text-decoration: none;
     color: black;
     font-size: 17px;
-    box-shadow: 0 4px 15px rgba(0,0,0,1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
     transition: transform 0.3s ease;
 }
 
@@ -142,11 +102,6 @@ section p {
     background-color: rgba(255, 255, 255, 0.8);
     transform: translateY(-5px);
 
-}
-
-.container{
-    width: 50%;
-    margin-top: 90px;
 }
 
 h2 {
@@ -158,38 +113,4 @@ h2 {
 .whatIs p {
     color: rgba(255, 255, 255, 0.6);
 }
-
-.element1 .bg {
-    width: 50%;
-    height: auto;
-    background-image: url(../assets/element1pic.jpg);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.element1 .szoveg {
-    color: #000;
-    padding: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 300px;
-
-}
-
-.element1 .szoveg h3{
-    font-family: "Noto Sans", sans-serif;
-}
-
-.element1 .szoveg p{
-    color: #696969;
-    text-align: end;
-}
-
-.element1 .szoveg p:nth-child(2){
-    text-align: start;
-}
-
 </style>
