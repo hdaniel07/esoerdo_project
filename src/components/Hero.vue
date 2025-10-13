@@ -48,7 +48,7 @@ AOS.init();
     <div class="container bg-white">
         <div class="elements">
             <div class="element1 d-flex">
-                <div class="bg col-lg-4"></div>
+                <div class="bg col-lg-6"></div>
                 <div class="szoveg col-lg-6">
                     <h3>Mi az esőerdő?</h3>
                     <p>Az esőerdők olyan sűrű, nedves erdők, ahol évente több mint 2000 mm csapadék hullik. Ezek a
@@ -59,8 +59,29 @@ AOS.init();
                         mint fele itt él, gyakran olyan fajok is, amelyek máshol nem fordulnak elő.</p>
                 </div>
             </div>
-            <div class="element">
+            <div class="element2 element1 d-flex">
+                <div class="szoveg col-lg-6">
+                    <h3>Mi az esőerdő?</h3>
+                    <p>Az esőerdők olyan sűrű, nedves erdők, ahol évente több mint 2000 mm csapadék hullik. Ezek a
+                        területek általában az Egyenlítő mentén helyezkednek el – például az Amazonas-medencében,
+                        Közép-Afrikában vagy Délkelet-Ázsiában.
 
+                        A trópusi esőerdők gazdag biodiverzitásukról ismertek: a világ növény- és állatfajainak több
+                        mint fele itt él, gyakran olyan fajok is, amelyek máshol nem fordulnak elő.</p>
+                </div>
+                <div class="bg col-lg-6"></div>
+            </div>
+            <div class="element1 d-flex">
+                <div class="bg col-lg-6"></div>
+                <div class="szoveg col-lg-6">
+                    <h3>Mi az esőerdő?</h3>
+                    <p>Az esőerdők olyan sűrű, nedves erdők, ahol évente több mint 2000 mm csapadék hullik. Ezek a
+                        területek általában az Egyenlítő mentén helyezkednek el – például az Amazonas-medencében,
+                        Közép-Afrikában vagy Délkelet-Ázsiában.
+
+                        A trópusi esőerdők gazdag biodiverzitásukról ismertek: a világ növény- és állatfajainak több
+                        mint fele itt él, gyakran olyan fajok is, amelyek máshol nem fordulnak elő.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -69,7 +90,7 @@ AOS.init();
 <style scoped>
 main {
     background-color: black;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 
 header {
@@ -123,7 +144,7 @@ section p {
 
 }
 
-.container {
+.container{
     width: 50%;
     margin-top: 90px;
 }
@@ -139,8 +160,8 @@ h2 {
 }
 
 .element1 .bg {
-    width: 600px;
-    height: 300px;
+    width: 50%;
+    height: auto;
     background-image: url(../assets/element1pic.jpg);
     background-position: center center;
     background-size: contain;
@@ -149,7 +170,7 @@ h2 {
 
 .element1 .szoveg {
     color: #000;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -157,7 +178,18 @@ h2 {
     height: 300px;
 
 }
+
+.element1 .szoveg h3{
+    font-family: "Noto Sans", sans-serif;
+}
+
 .element1 .szoveg p{
     color: #696969;
+    text-align: end;
 }
+
+.element1 .szoveg p:nth-child(2){
+    text-align: start;
+}
+
 </style>
