@@ -8,12 +8,12 @@ import Footer from '../components/Footer.vue'
 <template>
   <div class="black-bg">
     <div class="hero_bg">
-      <Hero />
+      <Hero></Hero>
     </div>
-    <Fedezd />
+    <Fedezd></Fedezd>
   </div>
-  <Rolunk />
-  <Footer />
+  <Rolunk></Rolunk>
+  <Footer></Footer>
 </template>
 
 <style scoped>
@@ -27,7 +27,7 @@ import Footer from '../components/Footer.vue'
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; /* ha eddig absolute volt, cseréld le erre */
+  position: relative;
   margin: 0;
   padding-top: 64px;
 }

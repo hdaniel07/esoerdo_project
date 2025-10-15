@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    /* ha eddig absolute volt, cseréld le erre */
     margin: 0;
     padding-top: 64px;
 }

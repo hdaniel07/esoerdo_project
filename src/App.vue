@@ -17,6 +17,12 @@ import { RouterLink, RouterView } from 'vue-router'
           <li class="nav-item mx-3">
             <RouterLink class="nav-link" to="/quiz">Kvíz</RouterLink>
           </li>
+          <li class="nav-item mx-3">
+            <RouterLink class="nav-link" to="/tips">Tippek</RouterLink>
+          </li>
+          <li class="nav-item mx-3">
+            <RouterLink class="nav-link" to="/map">Térkép</RouterLink>
+          </li>
         </ul>
       </div>
     </div>
