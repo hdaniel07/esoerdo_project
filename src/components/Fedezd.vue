@@ -28,4 +28,8 @@ h2 {
 .whatIs p {
   color: rgba(255, 255, 255, 0.6);
 }
+
+#mutass{
+    scroll-margin-top: 150px;
+}
 </style>
