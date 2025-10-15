@@ -12,10 +12,11 @@
                 <button class="btn btn-light">Notify Me!</button>
             </div>
         </div>
-    </section>
-    <footer class="text-center">
+        <footer class="text-center sticky-bottom">
         <p>© Majomparádé Esőerdő Tisztító- és Karbantartó Kft. </p>
-    </footer>
+        </footer>
+    </section>
+    
 </template>
 
 <style scoped>
@@ -61,5 +62,7 @@ button:hover{
 
 footer {
     color: rgba(0, 0, 0, 0.7);
+    top: 100%;
+    font-weight: bold;
 }
 </style>

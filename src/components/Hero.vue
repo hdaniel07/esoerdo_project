@@ -37,7 +37,22 @@ section p {
     font-style: italic;
 }
 
+.mutass {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding: 7px 15px 7px 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease;
+}
 
+.mutass:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-5px);
+
+}
 
 
 </style>
