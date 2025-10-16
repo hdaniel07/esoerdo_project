@@ -52,6 +52,7 @@
 .container {
     width: 50%;
     margin-top: 90px;
+    margin-bottom: 90px;
 }
 
 
