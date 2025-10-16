@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink class="nav-link" to="/tips">Tippek</RouterLink>
           </li>
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/map">Térkép</RouterLink>
+            <RouterLink class="nav-link" to="/maps">Térkép</RouterLink>
           </li>
         </ul>
       </div>
