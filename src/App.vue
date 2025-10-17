@@ -15,13 +15,16 @@ import { RouterLink, RouterView } from 'vue-router'
             <RouterLink class="nav-link" to="/">Főoldal</RouterLink>
           </li>
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/quiz">Kvíz</RouterLink>
+            <RouterLink class="nav-link" to="/wildlife">Élővilág</RouterLink>
           </li>
           <li class="nav-item mx-3">
             <RouterLink class="nav-link" to="/tips">Tippek</RouterLink>
-          </li>
+          </li>                   
           <li class="nav-item mx-3">
             <RouterLink class="nav-link" to="/maps">Térkép</RouterLink>
+          </li>
+          <li class="nav-item mx-3">
+            <RouterLink class="nav-link" to="/quiz">Kvíz</RouterLink>
           </li>
         </ul>
       </div>
