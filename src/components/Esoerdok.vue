@@ -147,4 +147,10 @@ a {
     margin: 0px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .col-12{
+    margin: 20px 10px;
+  }
+}
 </style>
