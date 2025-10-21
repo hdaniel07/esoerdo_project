@@ -9,22 +9,23 @@ import { RouterLink, RouterView } from 'vue-router'
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto ms-auto text-end" data-aos="fade-down" data-aos-duration="3000">
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/">Főoldal</RouterLink>
+            <RouterLink class="nav-link" to="/" active-class="active-link">Főoldal</RouterLink>
           </li>
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/wildlife">Élővilág</RouterLink>
+            <RouterLink class="nav-link" to="/wildlife" active-class="active-link">Élővilág</RouterLink>
           </li>
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/tips">Tippek</RouterLink>
+            <RouterLink class="nav-link" to="/tips" active-class="active-link">Tippek</RouterLink>
           </li>                   
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/maps">Térkép</RouterLink>
+            <RouterLink class="nav-link" to="/maps" active-class="active-link">Térkép</RouterLink>
           </li>
           <li class="nav-item mx-3">
-            <RouterLink class="nav-link" to="/quiz">Kvíz</RouterLink>
+            <RouterLink class="nav-link" to="/quiz" active-class="active-link">Kvíz</RouterLink>
           </li>
         </ul>
       </div>
@@ -35,9 +36,25 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-.nav-item { font-size: 17px; color: #696969 !important; }
-.nav-item:hover { color: #000 !important; }
-nav{
+.nav-item {
+  font-size: 17px;
+}
+
+.nav-link {
+  color: #696969 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+}
+
+.active-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+nav {
   background-color: transparent !important;
   position: absolute;
   top: 0;
